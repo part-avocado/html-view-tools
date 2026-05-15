@@ -12,7 +12,7 @@
 
 PDF Viewer Usage:
 ```html
-<script type="module" src="https://cdn.jameslin.info/p-pdf.js"></script>
+<script type="module" src="https://cdn.jameslin.info/vue/p-pdf.js"></script>
 
 <p-pdf src="document.pdf"></p-pdf>
 ```
@@ -37,7 +37,7 @@ p-pdf { height: 800px; }
 
 Image Viewer Usage:
 ```html
-<script type="module" src="https://cdn.jameslin.info/p-img.js"></script>
+<script type="module" src="https://cdn.jameslin.info/vue/p-img.js"></script>
 
 <p-img src="photo.jpg" alt="A description"></p-img>
 ```
@@ -63,7 +63,7 @@ p-img { width: 320px; }
 
 PDF Viewer Usage:
 ```html
-<script type="module" src="https://cdn.jameslin.info/p-video.js"></script>
+<script type="module" src="https://cdn.jameslin.info/vue/p-video.js"></script>
 
 <p-video src="clip.mp4" poster="thumb.jpg"></p-video>
 ```
@@ -90,9 +90,9 @@ p-video { max-width: 800px; }
 Each file is independent therefore, you will need to import only what you need.
 
 ```html
-<script type="module" src="https://cdn.jameslin.info/p-pdf.js"></script>
-<script type="module" src="https://cdn.jameslin.info/p-img.js"></script>
-<script type="module" src="https://cdn.jameslin.info/p-video.js"></script>
+<script type="module" src="https://cdn.jameslin.info/vue/p-pdf.js"></script>
+<script type="module" src="https://cdn.jameslin.info/vue/p-img.js"></script>
+<script type="module" src="https://cdn.jameslin.info/vue/p-video.js"></script>
 
 <p-pdf src="report.pdf"></p-pdf>
 <p-img src="cover.jpg" alt="Report cover"></p-img>
